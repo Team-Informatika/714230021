@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="img/portfolio_ico.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">My Portfolio</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="profile-picture">
+            <img src="img/Profile Picture.jpg" alt="Profile Picture">
+        </div>
+        <h2>Hello, I'm <span>Muhammad Haitsam Izzuddin Azman</span></h2>
+        <p>A Passionate Developer & Tech Enthusiast</p>
+        <button onclick="scrollToSection('projects')" class="btn">View My Work</button>
+    </header>
+
+    <section id="about" class="section">
+        <h3>About Me</h3>
+        <p>I'm a full-stack developer with a passion for creating modern, responsive web applications.</p>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">React</div>
+            <div class="skill">Golang</div>
+        </div>
+    </section>
+
+    <section id="rate-fee" class="section">
+        <h3>Rate Fee</h3>
+        <div class="rate-fee-container">
+            <div class="rate-card">
+                <h4>Basic Package</h4>
+                <p>$50 - Simple website with basic features</p>
+            </div>
+            <div class="rate-card">
+                <h4>Standard Package</h4>
+                <p>$150 - Responsive website with animations</p>
+            </div>
+            <div class="rate-card">
+                <h4>Premium Package</h4>
+                <p>$300 - Full-stack website with backend support</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h3>My Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h4>Project 1</h4>
+                <p>A web app built using React and Firebase.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h4>Project 2</h4>
+                <p>An AI-powered chatbot using Python.</p>
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3">
+                <h4>Project 3</h4>
+                <p>A mobile-friendly portfolio website.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h3>Contact Me</h3>
+        <p>Email: mhaitsamia@gmail.com</p>
+        <p>GitHub: github.com/Sam9100</p>
+    </section>
+
+    <footer class="footer">
+        <a href="#about" class="footer-icon"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="#projects" class="footer-icon"><i class="fas fa-code"></i><span>Projects</span></a>
+        <a href="#contact" class="footer-icon"><i class="fa-solid fa-envelope"></i></i><span>Contact</span></a>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
